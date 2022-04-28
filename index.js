@@ -34,9 +34,6 @@ client.on("message", async message => {
     } else if (message.content.startsWith(`${prefix}stop`)) {
         stop(message, serverQueue);
         return;
-    /* } else if (message.content.startsWith(`${prefix}dóri`)) {
-        message.channel.send(':blush: :yum: :lying_face: :liar:')
-        return; */
     }
     else {
         message.channel.send("fel foglak robbantani");
